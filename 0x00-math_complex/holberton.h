@@ -2,6 +2,7 @@
 #define HOLBERTON_H
 
 #include <stdio.h>
+#include <math.h>
 
 /**
  * struct complex - Represents a complex number (Real part + imaginary part).
@@ -16,5 +17,6 @@ typedef struct complex
 
 void display_complex_number(complex c);
 complex conjugate(complex c);
+double modulus(complex c);
 
 #endif /* HOLBERTON_H */
