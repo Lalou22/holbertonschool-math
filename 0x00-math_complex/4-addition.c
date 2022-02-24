@@ -4,7 +4,7 @@
  */
 #include "holberton.h"
 /**
- * modulus - Function that performs the addition operation to complex numbers.
+ * addition - Function that performs the addition operation to complex numbers.
  * @c1: First Complex number a + ib represented by two doubles.
  * @c2: Second Complex number a + ib represented by two doubles.
  * @c3: Pointer to the third Complex number a + ib represented by two doubles.
