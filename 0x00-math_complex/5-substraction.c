@@ -1,5 +1,5 @@
 /*
- * File: 4-addition.c
+ * File: 5-substraction.c
  * Auth: Lalo Rdz
  */
 #include "holberton.h"
