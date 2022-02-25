@@ -5,12 +5,12 @@ https://intranet.hbtn.io/projects/1095<br>
 <br>
 This project is devoted to do some basic operations in the real line and the complex plane.<br>
 <br>
-- Algebra operations.
-- Absolute values.
-- Cosinus and Sinus.
-- The Cartesian plane.
-- The Complex plane.
-- Real part and Imaginary part of Complex Numbers.
-- Modulus
-- Argument
+- Algebra operations.<br>
+- Absolute values.<br>
+- Cosinus and Sinus.<br>
+- The Cartesian plane.<br>
+- The Complex plane.<br>
+- Real part and Imaginary part of Complex Numbers.<br>
+- Modulus<br>
+- Argument<br>
 <br>
