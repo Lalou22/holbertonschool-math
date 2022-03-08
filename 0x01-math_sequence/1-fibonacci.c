@@ -24,8 +24,7 @@ t_cell *Fibonnaci()
 	add_node(&head, a0);
 	add_node(&head, a1);
 
-	do
-	{
+	do {
 		a2 = a1 + a0;
 		add_node(&head, a2);
 		diff = fabs(((double) a2 / a1) - ((double) a1 / a0));
@@ -58,6 +57,14 @@ t_cell *add_node(t_cell **head, int aprox)
 	return (node);
 }
 
+/**
+ * gold_number - Function that calculates the gold number.
+ * @head: Pointer to the head's list.
+ *
+ * Description: Function that calculates the gold number using the last
+ * two values from a Fibonacci series.
+ * Return: Gold number.
+ */
 double gold_number(t_cell *head)
 {
 	double temp;
@@ -66,5 +73,5 @@ double gold_number(t_cell *head)
 	a = head;
 	b = head->next;
 	temp = (double) a->elt / b->elt;
-	return(temp);
+	return (temp);
 }
