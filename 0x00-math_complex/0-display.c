@@ -14,7 +14,7 @@ void display_complex_number(complex c)
 {
 	double im = c.im;
 
-	printf("%f", c.re);
+	printf("%.0f", c.re);
 	if (c.im != 0.0)
 	{
 		if (c.im < 0)
@@ -27,7 +27,7 @@ void display_complex_number(complex c)
 			printf(" + ");
 		}
 		if (im != 1)
-			printf("%f", im);
+			printf("%.0f", im);
 		printf("i");
 	}
 	printf("\n");
