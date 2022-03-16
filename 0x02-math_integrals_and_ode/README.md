@@ -1,0 +1,1 @@
+In this section we will have only a quick idea about integrals. We will use loops and functions in order to calculate the integral of some functions. We will focus on two numerical methods: Rectangle and Simpson.
